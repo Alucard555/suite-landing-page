@@ -1,0 +1,63 @@
+@media  (min-width: 768px)  { 
+  .main {
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    .body {
+      margin-top: 50px;
+      .line img {
+        width: 230px;
+        left: 240px;
+        top: 50px;
+      }
+
+      .container-text {
+        margin: 0;
+        .headP {
+          font-size: 59px;
+          width: 560px;
+        }  
+      }
+    }
+    .phone-img {
+      margin-left: -200px ;
+
+      img {
+        height: 482px;
+        width: 335px;
+        border-radius: 20px;
+      }
+    }
+    .countdown {
+      flex-direction: row;
+      margin: 0 auto;
+      justify-content: space-around;
+      width: 120%;
+    }
+  }
+
+  .Jeremy_sec {
+      width: 90%;
+      .blur img {
+        height: 270px;
+        bottom: 370px;
+        right: 200px;
+      }
+    .Jem_text {
+      .text_middle {
+        width: 500px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .footer {
+    // width: 85%;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    gap: 180px;
+
+  }
+}

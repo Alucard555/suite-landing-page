@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+:root {
+  --color1: #172339;
+  --color2: #faf8f6;
+  --color3: #241739;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Epilogue;
+}
+.navbar .navbar-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.navbar .navbar-button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--color1);
+  color: #faf8f6;
+  transition: 0.15s;
+  cursor: pointer;
+  font-family: Epilogue;
+}
+.navbar .navbar-button:hover {
+  background-color: blue;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  width: 80%;
+  margin: 30px auto 150px auto;
+}
+.main .body {
+  z-index: 1;
+}
+.main .body .line img {
+  max-width: 280px;
+}
+.main .body .container-text {
+  width: 180%;
+}
+.main .body .container-text .headP {
+  font-size: 72px;
+  font-weight: lighter;
+  font-family: Epilogue;
+  color: var(--color1);
+}
+.main .body .container-text .headP .span1 {
+  color: var(--color3);
+  font-weight: bold;
+}
+.main .body .container-text .body-text {
+  margin: -50px 0 30px 0;
+  font-size: 25px;
+  max-width: 380px;
+  color: var(--color1);
+}
+.main .body .container-text .body-buttom {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  width: 10rem;
+  background-color: var(--color1);
+  color: var(--color2);
+}
+.main .countdown {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  width: 30%;
+  font-family: Epilogue;
+}
+.main .countdown span {
+  font-size: 48px;
+  font-weight: 700;
+}
+.main .countdown .count {
+  font-size: 16px;
+}
+
+.Jeremy_sec {
+  background-color: var(--color1);
+  color: var(--color2);
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  height: 540px;
+  font-family: Epilogue;
+  border-radius: 10px;
+  flex-wrap: nowrap;
+}
+.Jeremy_sec .Jeremy-img {
+  position: relative;
+  bottom: 50px;
+  z-index: 1;
+}
+.Jeremy_sec .curve {
+  position: relative;
+  top: 150px;
+  height: 100px;
+}
+.Jeremy_sec .blur {
+  position: absolute;
+  left: 10%;
+  margin-top: 50px;
+}
+.Jeremy_sec .Jem_text {
+  letter-spacing: 0.1px;
+  font-size: 20px;
+  width: 350px;
+  position: relative;
+  top: 30px;
+}
+.Jeremy_sec .Jem_text .text_top {
+  font-size: 48px;
+}
+.Jeremy_sec .Jem_text .text_top span {
+  font-weight: bold;
+}
+.Jeremy_sec .Jem_text .text_middle {
+  font-weight: lighter;
+  color: #f3ede7;
+  line-height: 33px;
+  margin-bottom: 50px;
+}
+.Jeremy_sec .Jem_text .text_bottom span {
+  font-weight: bold;
+}
+
+.footer {
+  align-items: center;
+  height: 190px;
+  display: flex;
+  background: var(--Cream, #F3EDE7);
+  padding-top: 330px;
+  position: relative;
+  z-index: -1;
+  margin: -330px auto 0 auto;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  font-family: Epilogue;
+  position: relative;
+}
+.footer .container .footer-logo {
+  color: var(--Dark-Blue, #172339);
+  font-family: Epilogue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+}
+.footer .container .footer-logo:hover {
+  opacity: 50%;
+}
+.footer .container .copyright {
+  color: var(--Grey, #49566d);
+  font-family: Epilogue;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer .container .social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15%;
+}
+.footer .container .social-icons .icon {
+  cursor: pointer;
+}
+.footer .container .social-icons .icon:hover {
+  opacity: 50%;
+}/*# sourceMappingURL=design.css.map */

@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+  .main {
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+  }
+  .main .body {
+    margin-top: 50px;
+  }
+  .main .body .line img {
+    width: 230px;
+    left: 240px;
+    top: 50px;
+  }
+  .main .body .container-text {
+    margin: 0;
+  }
+  .main .body .container-text .headP {
+    font-size: 59px;
+    width: 560px;
+  }
+  .main .phone-img {
+    margin-left: -200px;
+  }
+  .main .phone-img img {
+    height: 482px;
+    width: 335px;
+    border-radius: 20px;
+  }
+  .main .countdown {
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 120%;
+  }
+  .Jeremy_sec {
+    width: 90%;
+  }
+  .Jeremy_sec .blur img {
+    height: 270px;
+    bottom: 370px;
+    right: 200px;
+  }
+  .Jeremy_sec .Jem_text .text_middle {
+    width: 500px;
+    margin-bottom: 30px;
+  }
+  .footer {
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    gap: 180px;
+  }
+}/*# sourceMappingURL=tablet.css.map */

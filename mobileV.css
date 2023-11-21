@@ -16,8 +16,8 @@ body {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 0 auto;
-  padding: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 .navbar .navbar-title {
   font-size: 40px;
@@ -46,18 +46,19 @@ body {
 }
 .main .body {
   z-index: 1;
+  width: 95%;
 }
 .main .body .line img {
-  max-width: 45%;
+  max-width: 40%;
   position: relative;
-  left: 170px;
+  left: 140px;
   top: 30px;
 }
 .main .body .container-text .headP {
-  font-size: 39px;
+  font-size: 35px;
   font-family: Epilogue;
   color: var(--color1);
-  width: 360px;
+  width: 100%;
   margin-bottom: 0;
 }
 .main .body .container-text .headP .span1 {
@@ -65,8 +66,8 @@ body {
   font-weight: bold;
 }
 .main .body .container-text .body-text {
-  font-size: 16px;
-  width: 343px;
+  font-size: 15px;
+  width: 100%;
   line-height: 28px;
   color: var(--color1);
   margin: 30px 0 30px 0;
@@ -74,7 +75,7 @@ body {
 .main .body .container-text .body-buttom {
   padding: 15px;
   border-radius: 10px;
-  width: 10rem;
+  width: 10.5rem;
   border-style: solid;
   border-color: var(--color1);
   color: var(--color1);
@@ -89,7 +90,7 @@ body {
 }
 .main .phone-img img {
   height: 230px;
-  width: 335px;
+  width: 95%;
   border-radius: 10px;
 }
 .main .countdown {
@@ -112,6 +113,7 @@ body {
 
 .Jeremy_sec {
   background-color: var(--color1);
+  width: 100%;
   border-radius: 20px;
   margin: 150px auto 20px auto;
   display: flex;
